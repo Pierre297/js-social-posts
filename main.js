@@ -110,4 +110,24 @@ var socialPost = [
 
     // - Rendiamo il tasto “Mi Piace” cliccabile con incremento del counter dei likes.
 
-    likeButton.addEventListener('click',);
+    const likeBtn = document.getElementsByClassName("like-button");
+    const likesNum = document.getElementsByClassName("js-likes-counter");
+
+    for (let i = 0; i < socialPost.length; i++){
+
+        likeBtn[i].addEventListener('click',
+            function(){
+
+                if (this.className.includes("like-button--liked")) {
+                    socialPost[i].postLikes = socialPost[i].postLikes -1;
+                    likesNum[i].innerHTML = socialPost[i].postLikes;
+                    this.classList.remove("like-button--liked");
+                }else {
+                    socialPost[i].postLikes = socialPost[i].postLikes + 1;
+                    likesNum[i].innerHTML = socialPost[i].postLikes;
+                    this.classList.add("like-button--liked");
+                }
+            }
+        );
+
+    }
