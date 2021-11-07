@@ -6,37 +6,37 @@ var socialPost = [
 
     // Ogni post dovrà avere le informazioni necessarie per stampare la relativa card:
     { 
-        "profilePicture" : "img.html",
+        "profilePicture" : "https://unsplash.it/300/300?image=",
         "userName" : "Philip Mangione",
         "twittPost" : "Lorem Ipsum",
         "postData" : 3,
-        "postImage" : "https://unsplash.it/300/300?image=<id>",
+        "postImage" : "https://unsplash.it/300/300?image=",
         "postLikes" : 75
         
     },
     { 
-        "profilePicture" : "img.html",
+        "profilePicture" : "https://unsplash.it/300/300?image=",
         "userName" : "Philip Mangione",
         "twittPost" : "Lorem Ipsum",
         "postData" : 3,
-        "postImage" : "https://unsplash.it/300/300?image=<id>",
+        "postImage" : "https://unsplash.it/300/300?image=",
         "postLikes" : 75
     },
     { 
-        "profilePicture" : "img.html",
+        "profilePicture" : "https://unsplash.it/300/300?image=",
         "userName" : "Philip Mangione",
         "twittPost" : "Lorem Ipsum",
         "postData" : 3,
-        "postImage" : "https://unsplash.it/300/300?image=<id>",
+        "postImage" : "https://unsplash.it/300/300?image=",
         "postLikes" : 75
         
     },
     { 
-        "profilePicture" : "img.html",
+        "profilePicture" : "https://unsplash.it/300/300?image=",
         "userName" : "Philip Mangione",
         "twittPost" : "Lorem Ipsum",
         "postData" : 3,
-        "postImage" : "https://unsplash.it/300/300?image=<id>",
+        "postImage" : "https://unsplash.it/300/300?image=",
         "postLikes" : 75
     },
     
@@ -58,7 +58,7 @@ var socialPost = [
             profileImg = socialPost[i].profilePicture;
             profileName = socialPost[i].userName;
             profileTwitt = socialPost[i].twittPost;
-            profileData = socialPost[i].postImage;
+            profileData = socialPost[i].postData;
             profilePostImg =socialPost[i].postImage;
             profilePostLikes = socialPost[i].postLikes;
             
